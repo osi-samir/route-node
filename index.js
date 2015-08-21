@@ -14,7 +14,7 @@ app.get('/', function(request, response) {
 });
 
 app.get('/api/v1/send/sms', function(request, response) {
-  response.JSON({message:'Sent Suceessfully'});
+  response.json({message:'Sent Suceessfully'});
 });
 
 app.listen(app.get('port'), function() {
